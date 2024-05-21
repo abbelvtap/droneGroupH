@@ -108,10 +108,6 @@ void loop()
   Serial.println(slider);
   
 
-  // Control LED brightness based on joystick Y position
-  int led_brightness = map(joy_y, -100, 100, 0, 255);
-  analogWrite(PIN_LED, led_brightness);
-
   
   // TODO you loop code
   // use the RemoteXY structure for data transfer
